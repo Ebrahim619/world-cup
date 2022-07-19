@@ -188,9 +188,9 @@ home banner style
 .sociali-icon a:hover{
     color: #dd0000;
 }
-/* ---------------------
-start media queries
---------------------------- */
+/* --------------------------------------
+start media queries for mobail 
+------------------------------------------ */
 @media only screen and (max-width:576px){
     .container{
         margin: 10px 15px 10px 15px;
@@ -275,6 +275,109 @@ start media queries
         flex-direction: column;
         align-items: center;
         padding-top: 50px;
+    }
+    
+    }
+     /*responsive for tablet  */
+     @media only screen and (min-width:577px) and (max-width:992px){
+        .container{
+            margin: 15px 20px 0;
+        }
+        /* ---------------
+    home banner responsive 
+    -----------------*/
+    .home-banner{
+       
+        border-radius: 10px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .home-banner-text-and-btn{
+        padding: 40px 0 0 40px;
+    }
+    .home-banner-text-and-btn h1{
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+    .home-banner-text-and-btn a{
+    
+    }
+    
+    .home-banner-image{
+        width: 300px;
+        height: 310px;
+        padding-top: 50px;
+        padding-left: 50px ;
+    }
+    
+    /*--------------------- 
+       blogs section responsive
+    -----------------------*/
+    .categories-and-blogs{
+        display: flex;
+        flex-direction: column;
+    }
+    .categories{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+         width:100%;
+        height: 108px;
+        background-color: aliceblue;
+        border-radius: 10px;
+        padding: 15px 30px;
+        align-items: center;
+    
+    }
+    .categories .deactive{
+        text-decoration: none;
+        color: #1e1e1e;
+        padding: 10px 0;
+        font-size: 20px;
+        background-color: aliceblue;
+        border-radius: 6px;
+    }
+    
+    .categories .active{
+        text-decoration: none;
+        color: #ffffff;
+        margin: 15px 30px 15px 30px;
+        padding: 10px 0;
+        font-size: 20px;
+        background-color: #dd0000;
+        border-radius: 6px;
+        text-align: center;
+    }
+    .all-blogs{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 10px;
+    }
+    .blogs{
+        width: 400px;
+        box-shadow: 3px 3px 7px -6px #dd0000;
+        border-radius: 10px;
+    }
+    
+    /*-------------------------------
+             footer responsive          
+     --------------------------------*/
+     footer{
+        width: 100%;
+        height: 300px;
+        background-color: #1e1e1e;
+     }
+     .footer-title{
+        color: #ffffff;
+        padding: 50px 0 0 0 ;
+        text-align: center;
+     }
+    .footer-item{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 70%;
+        padding-top: 50px;
+        padding-left: 15%;
     }
     
     }
