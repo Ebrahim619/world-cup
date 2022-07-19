@@ -36,7 +36,6 @@ home banner style
 }
 .home-banner-text-and-btn p{
     margin-bottom: 30px;
-   font-family: cursive;
 }
 .home-banner-text-and-btn a{
     text-decoration: none;
@@ -187,4 +186,94 @@ home banner style
 }
 .sociali-icon a:hover{
     color: #dd0000;
+}
+/* ---------------------
+start media queries
+--------------------------- */
+@media only screen and (max-width:576px){
+.container{
+    margin: 10px 15px 10px 15px;
+}
+/* -------------------------------------home banner responsive start
+------------------------------------------ */
+.home-banner{
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.home-banner-text-and-btn{
+    color: #fff;
+    padding: 20px 20px 0 20px;
+}
+.home-banner-text-and-btn h1{
+    padding: 20px 40px 0 40px;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.home-banner-text-and-btn p{
+    margin-bottom: 30px;
+    padding: 20px 40px 0 40px;
+    text-align: center;
+}
+.home-banner-text-and-btn a{
+   margin-left: 30%;
+}
+.home-banner-image{
+    padding-left: 20%;
+    width: 240px;
+    height: 260px;
+    padding-top: 50px;
+}
+/*-------------------------------------
+categories-and-blogs responsive start
+----------------------------------  */
+.categories-and-blogs{
+    display: flex;
+    flex-direction: column;
+}
+.categories{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 370px;
+    height: 238px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 15px 0;
+}
+.categories .deactive{
+    padding: 10px 20px;
+    background-color: aliceblue;
+}
+.categories .active{
+    padding: 10px 20px;
+}
+.all-blogs{
+   display: flex;
+   flex-direction: column;
+}
+.blogs{
+    margin: 0 12% 0 12%;
+    width: 280px;
+    box-shadow: 3px 3px 7px -6px #dd0000;
+    border-radius: 10px;
+}
+/*-------------------------------------- 
+    footer responsive style start          
+ ------------------------------- ---------*/
+ footer{
+    width: 370px;
+    height: 500px;
+    background-color: #1e1e1e;
+    border-radius: 10px;
+ }
+
+.footer-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+
 }
