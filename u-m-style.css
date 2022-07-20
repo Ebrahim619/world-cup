@@ -115,40 +115,33 @@ home banner style
     box-shadow: 3px 3px 7px -6px #dd0000;
     border-radius: 10px;
 }
+.blog-image {
+    display: flex;
+    gap: 10px;
+    width: 90%;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+.blog-image h3{
+ margin-top: 15px;
+}
 .blog-image img{
     width: 100%;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
 }
 .blog-text{
     padding: 0 20px 0 20px;
 }
-.blog-desc a{
-    text-decoration: none;
-    color: #161616;
-    padding: 1px 10px;
-    font-size: 20px;
-    border: 1px solid #161616;
-    border-radius: 6px;
-    margin-bottom: 15px;
+
+.blog-desc h5{
+    padding:  15px 0 20px 0;
+    text-align: center;
 }
-.blog-desc p{
-    margin: 15px 0 10px 0;
+.time p{
+    padding:  15px 0 20px 0;
+    text-align: center;
 }
-.time-and-comment{
-    display: flex;
-    justify-content: space-between;
-    padding-bottom: 15px;
-}
-.time, .comment{
-    display: flex;
-    flex-direction: row;
-}
-.time img{
-    padding-right: 5px;
-}
-.comment img{
-    padding-right: 5px;
-}
+
 /*-------------------------------
          footer style           
  --------------------------------*/
